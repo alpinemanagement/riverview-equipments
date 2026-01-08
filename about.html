@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Riverview Equipments</title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/icons/favicon-16x16.png">
+    <link rel="icon" href="assets/icons/favicon.ico">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .hero-section {
+            position: relative;
+            height: 80vh;
+            min-height: 500px;
+            background: url('assets/images/riverAbout.png') no-repeat center center;
+            background-size: cover;
+        }
+        .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.3) 100%);
+        }
+        @media only screen and (max-width:500px){
+            .hero-section h1{
+                font-size: 2.5rem!important;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header class="navbar navbar-expand-md navbar-light bg-light border-bottom py-3">
+    <div class="container">
+        <!-- Logo -->
+        <a class="navbar-brand d-flex align-items-center" href="index.html">
+            <img src="assets/images/riverLogo.png" height="50px" class="mb-2" alt="Riverview Equipments Logo">
+            <h4 class="">Riverview Equipments</h4>
+        </a>
+
+        <!-- Mobile Toggle -->
+        <button class="navbar-toggler" type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#mainNavbar"
+            aria-controls="mainNavbar"
+            aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Nav Links -->
+        <div class="collapse navbar-collapse" id="mainNavbar">
+            <ul class="navbar-nav ms-auto mb-2 mb-md-0 fw-semibold">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html#services">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+
+    </div>
+</header>
+
+<section class="hero-section d-flex align-items-center text-white">
+    <div class="overlay"></div>
+    <div class="container position-relative">
+        <div class="row">
+            <div class="col-lg-8">
+                <h1 class="display-3 font-weight-bold mb-3">About <br><span class="text-danger">Riverview Equipments</span></h1>
+                <p class="lead mb-4 shadow-text">
+                    Delivering dependable industrial, traffic, and safety solutions
+                    engineered for performance, durability, and real-world demands.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- ================= ABOUT HERO ================= 
+<section class="about-hero py-5 bg-light">
+    <div class="container">
+        <div class="row justify-content-center text-center">
+            <div class="col-lg-9">
+                <h1 class="mb-3">About Riverview Equipments</h1>
+                <p class="lead text-muted">
+                    Delivering dependable industrial, traffic, and safety solutions
+                    engineered for performance, durability, and real-world demands.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+-->
+
+<!-- ================= WHO WE ARE ================= -->
+<section class="container py-5">
+    <div class="row align-items-center">
+        <div class="col-lg-6 mb-4 mb-lg-0">
+            <h3>Who We Are</h3>
+            <p class="text-muted">
+                Riverview Equipments is a trusted supplier of industrial, traffic
+                management, wayfinding, and safety-related solutions. We support
+                infrastructure projects and operational environments where reliability,
+                visibility, and long-term performance are critical.
+            </p>
+            <p class="text-muted">
+                Our approach combines practical engineering, quality materials, and
+                industry knowledge to deliver solutions that perform consistently in
+                demanding conditions.
+            </p>
+        </div>
+        <div class="col-lg-6">
+            <div class="about-highlight">
+                <ul class="list-unstyled mb-0">
+                    <li>✔ Industry-focused solutions</li>
+                    <li>✔ Performance-driven design</li>
+                    <li>✔ Commitment to quality & durability</li>
+                    <li>✔ Client-first approach</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ================= OUR MISSION & VISION ================= -->
+<section class="bg-light py-5">
+    <div class="container">
+        <div class="row text-center">
+            <div class="col-md-6 mb-4">
+                <div class="about-card h-100 p-4">
+                    <h4 class="mb-3">Our Mission</h4>
+                    <p class="text-muted">
+                        To provide reliable, high-quality industrial and safety solutions
+                        that help our customers operate efficiently, safely, and with
+                        confidence in every environment.
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-6 mb-4">
+                <div class="about-card h-100 p-4">
+                    <h4 class="mb-3">Our Vision</h4>
+                    <p class="text-muted">
+                        To be a trusted partner for infrastructure and industrial projects
+                        by delivering durable solutions, technical expertise, and consistent
+                        value across every engagement.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ================= WHAT SETS US APART ================= -->
+<section class="container py-5">
+    <div class="row justify-content-center">
+        <div class="col-lg-10 text-center">
+            <h3 class="mb-4">What Sets Us Apart</h3>
+            <p class="text-muted mb-4">
+                We work closely with our clients to understand project requirements,
+                environmental challenges, and compliance needs. This collaborative
+                approach allows us to deliver solutions that are practical, scalable,
+                and built to last.
+            </p>
+        </div>
+    </div>
+
+    <div class="row text-center">
+        <div class="col-md-4 mb-4">
+            <div class="about-icon-card p-4 h-100">
+                <i class="bi bi-shield-check mb-3"></i>
+                <h5>Quality Assurance</h5>
+                <p class="text-muted">
+                    Strict quality standards ensure consistent performance and durability.
+                </p>
+            </div>
+        </div>
+        <div class="col-md-4 mb-4">
+            <div class="about-icon-card p-4 h-100">
+                <i class="bi bi-gear-wide-connected mb-3"></i>
+                <h5>Technical Expertise</h5>
+                <p class="text-muted">
+                    Industry knowledge combined with practical execution.
+                </p>
+            </div>
+        </div>
+        <div class="col-md-4 mb-4">
+            <div class="about-icon-card p-4 h-100">
+                <i class="bi bi-clock-history mb-3"></i>
+                <h5>Timely Delivery</h5>
+                <p class="text-muted">
+                    Reliable timelines to support project success.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- ================= CONTACT ================= -->
+<section id="contact" class="text-white text-center py-5" style="background-color: #cf2732;">
+    <div class="container contactSection">
+        <img src="assets/images/riverLogo.png" height="50px" class="mb-2" alt="Riverview Equipments Logo">
+        <h2 class="text-white">Riverview Equipments</h2>
+        <hr class="text-white">
+        <h4 class="text-white">Contact Us</h4>
+        <div class="row mx-0">
+        <div class="col-md-6 d-flex flex-column">
+            <i class="bi bi-geo-alt"></i>
+            <a class="mb-4 text-decoration-none">
+                19433 96 AVE Surrey,BC <br>V4N 4C4 , Canada
+            </a>
+        </div>
+        <div class="col-md-6 d-flex flex-column">
+            <i class="bi bi-envelope"></i>
+            <a href="mailto:info@riverviewequip.com" class="text-decoration-none">
+                info@riverviewequip.com
+            </a>
+        </div>
+        </div>
+    </div>
+</section>
+
+<!-- ================= FOOTER ================= -->
+<footer class="text-center py-3 bg-dark text-white">
+    <p class="mb-0">&copy; 2025 Riverview Equipments. All Rights Reserved.</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>

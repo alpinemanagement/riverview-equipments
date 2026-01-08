@@ -1,0 +1,121 @@
+/* Base Styles */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Logo size */
+.logo {
+    width: 140px;
+}
+
+/* Hero Banner */
+.hero {
+    background: #f8f9fa;
+    height: 350px;
+    color: #333;
+    padding-top: 80px;
+}
+
+/* Service Cards */
+.service-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    transition: 0.3s;
+    background: #c31d29;
+    color:white;
+    box-shadow: 0 4px 20px rgba(1, 7, 18, 0.408);
+}
+
+
+.service-card h4 {
+    color: white; /* match logo color */
+    font-weight: bold;
+}
+
+/* Hero Styling */
+
+
+.shadow-text {
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+
+/* Navbar refinements */
+.navbar-nav .nav-link {
+    color: #333;
+    padding: 0.5rem 1rem;
+    transition: color 0.2s ease;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #c31d29; /* logo red */
+}
+
+.navbar-nav .nav-link.active {
+    color: #c31d29;
+    font-weight: 600;
+}
+.navbar-brand h4{
+    color:#c31d29;
+    font-weight: bold;
+}
+
+.contactSection i{
+            font-size: 2rem;
+        }
+        .contactSection a{
+            color:white;
+            font-weight: bold;
+        }
+        .contactSection a:hover{
+            color:rgb(17, 32, 76);
+            cursor: pointer;
+        }
+
+/* Improve mobile dropdown spacing */
+@media (max-width: 767px) {
+    .navbar-collapse {
+        padding-top: 1rem;
+    }
+    .navbar-brand h4{
+        font-size: 1rem!important;
+    }
+}
+
+/* About page styles */
+.about-hero h1 {
+    font-weight: 700;
+}
+
+.about-highlight {
+    background: #f8f9fa;
+    padding: 30px;
+    border-left: 5px solid #cf2732;
+    border-radius: 6px;
+}
+
+.about-highlight li {
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+.about-card {
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+.about-icon-card {
+    border: 1px solid #e5e5e5;
+    border-radius: 8px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.about-icon-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+}
+
+.about-icon-card i {
+    font-size: 2rem;
+    color: #cf2732;
+}
